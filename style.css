@@ -14,6 +14,7 @@ span {
 }
 
 .grid-container {
+	min-width: 325px;
 	height: 100vh;
 	background-color: hsl(185, 75%, 39%);
 	display: grid;
@@ -62,4 +63,13 @@ span {
 	left: 0;
 	right: 0;
 	margin: auto;
+}
+
+.title {
+	margin: 20%;
+	text-align: center;
+}
+
+.profile-post {
+	border-top: 1px solid hsl(0, 0%, 59%);
 }
