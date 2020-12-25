@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
 * {
 	padding: 0;
 	margin: 0;
@@ -7,10 +9,15 @@ html,
 body {
 	max-height: 100vh;
 	color: hsl(229, 23%, 23%);
+	font-size: 18px;
+	line-height: 1.3;
+	font-family: "Kumbh Sans", sans-serif;
+	font-weight: 700;
 }
 
 .span {
 	color: hsl(227, 10%, 46%);
+	font-weight: 400;
 }
 
 .grid-container {
@@ -66,21 +73,25 @@ body {
 }
 
 .title {
-	margin: 22% 0 10%;
+	margin: 20% 0 10%;
 	text-align: center;
 }
 
 .title * {
-	margin: 5%;
+	margin: 2%;
 }
 .profile-post {
 	width: 100%;
 	border-top: 1px solid hsl(0, 0%, 59%);
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
+	text-align: center;
+	padding-top: 10%;
 }
 
-.profile-post * {
-	padding: 5% 9%;
+.post p {
+	padding-top: 3%;
+	letter-spacing: 2px;
+	font-size: 15px;
 }
